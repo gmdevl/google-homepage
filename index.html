@@ -8,11 +8,12 @@
   <link href="./css/reset.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <section class="main_1">
+	<div class="wrapper">
+		<section>
 		<nav>
-			<ul>
-				<li>Gmail</li>
-				<li>Images</li>
+			<ul class="nav_1">
+				<li class="gmail"><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
+				<li class="images"><a href="https://www.google.co.in/imghp?hl=en&tab=wi&ogbl">Images</a></li>
 				<li class="g_apps"></li>
 				<li class="g_profile"><img src="./resources/profile.jpg" alt=""></li>
 			</ul>
@@ -21,40 +22,48 @@
 			<img src="./resources/google_image.png" alt="Google">
 		</div>
 	</section>
-	<section class="search_form">
-		<div class="input_field">
-			<form action="">
-				<label for="gsearch"></label>
-				<input type="text" id="gsearch" name="gsearch"><br><br>
-				<input class="gbuttons" type="submit" value="Search">
-				<input class="gbuttons" type="submit" value="I'm feeling lucky">
+	<section>
+		<div class="search_form">
+			<form action="#" method="GET" name="gsearch">
+				<div class="input_field">
+					<label for="gsearch"></label>
+					<input class="search_box" type="text" id="gsearch" name="gsearch"><br><br>
+				</div>
+				<div class="gbuttons">
+					<input class="gbutton_1" type="submit" value="Google Search">
+					<input class="gbutton_2" type="submit" value="I'm feeling lucky">
+				</div>
 			</form>
 		</div>
 		<div class="lang_options">
 			<ul>
 				<li>Google offered in:</li>
-				<li>हिन्दी</li>
-				<li>বাংলা</li>
-				<li>తెలుగు</li>
-				<li>मराठी</li>
-				<li>தமிழ்</li>
-				<li>ગુજરાતી</li>
-				<li>ಕನ್ನಡ</li>
-				<li>മലയാളം</li>
-				<li>ਪੰਜਾਬੀ</li>
+				<li><a href="https://www.google.co.uk/setprefs?sig=0_-oKiNV70Kglvsek-aoj_CVvkH6E%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwjK0pD0pdTtAhWYaCsKHevYC0UQ2ZgBCA8">हिन्दी</a></li>
+				<li><a href="https://www.google.co.uk/setprefs?sig=0_-oKiNV70Kglvsek-aoj_CVvkH6E%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwjK0pD0pdTtAhWYaCsKHevYC0UQ2ZgBCBA">বাংলা</a></li>
+				<li><a href="https://www.google.co.uk/setprefs?sig=0_-oKiNV70Kglvsek-aoj_CVvkH6E%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwjK0pD0pdTtAhWYaCsKHevYC0UQ2ZgBCBE">తెలుగు</a></li>
+				<li><a href="https://www.google.co.uk/setprefs?sig=0_-oKiNV70Kglvsek-aoj_CVvkH6E%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwjK0pD0pdTtAhWYaCsKHevYC0UQ2ZgBCBI">मराठी</a></li>
+				<li><a href="https://www.google.co.uk/setprefs?sig=0_-oKiNV70Kglvsek-aoj_CVvkH6E%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwjK0pD0pdTtAhWYaCsKHevYC0UQ2ZgBCBM">தமிழ்</a></li>
+				<li><a href="https://www.google.co.uk/setprefs?sig=0_-oKiNV70Kglvsek-aoj_CVvkH6E%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwjK0pD0pdTtAhWYaCsKHevYC0UQ2ZgBCBQ">ગુજરાતી</a></li>
+				<li><a href="https://www.google.co.uk/setprefs?sig=0_-oKiNV70Kglvsek-aoj_CVvkH6E%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwjK0pD0pdTtAhWYaCsKHevYC0UQ2ZgBCBU">ಕನ್ನಡ</a></li>
+				<li><a href="https://www.google.co.uk/setprefs?sig=0_-oKiNV70Kglvsek-aoj_CVvkH6E%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwjK0pD0pdTtAhWYaCsKHevYC0UQ2ZgBCBY">മലയാളം</a></li>
+				<li><a href="https://www.google.co.uk/setprefs?sig=0_-oKiNV70Kglvsek-aoj_CVvkH6E%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwjK0pD0pdTtAhWYaCsKHevYC0UQ2ZgBCBc">ਪੰਜਾਬੀ</a></li>
 			</ul>
 		</div>
 	</section>
+	</div>
+  
 	<footer>
-		<div>
+		<div class="footer_1">
 			<p>India</p>
 		</div>
-		<div>
+		<div class="footer_2">
 			<ul>
 				<li><a href="https://www.google.co.uk/intl/en_in/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
 				<li><a href="https://www.google.co.uk/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Buisness</a></li>
 				<li><a href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
 				<li><a href="https://google.com/search/howsearchworks/?fg=1">How search works</a></li>
+			</ul>
+			<ul>
 				<li><a href="https://policies.google.com/privacy?hl=en-IN&fg=1">Privacy</a></li>
 				<li><a href="https://policies.google.com/terms?hl=en-IN&fg=1">Terms</a></li>
 				<li><a href="https://www.google.co.uk/preferences?hl=en">Settings</a></li>
